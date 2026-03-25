@@ -1,0 +1,11 @@
+services:
+  rss-proxy:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./config.json:/app/config.json:ro
+    environment:
+      PORT: "8080"
+      CONFIG: "/app/config.json"
+    restart: unless-stopped
