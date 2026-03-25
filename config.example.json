@@ -1,0 +1,14 @@
+{
+  "upstream": "https://status.enode.com/slack.rss",
+  "profiles": {
+    "vehicles": [
+      "ACURA", "AUDI", "BMW", "HONDA", "HYUNDAI", "JAGUAR", "LANDROVER",
+      "KIA", "MERCEDES", "MINI", "NISSAN", "PEUGEOT", "PORSCHE", "RENAULT",
+      "SEAT", "SKODA", "TESLA", "VOLKSWAGEN", "VOLVO", "FORD", "OPEL", "DS",
+      "TOYOTA", "LEXUS", "CITROEN", "CUPRA", "VAUXHALL", "FIAT", "RIVIAN",
+      "NIO", "CHEVROLET", "GMC", "CADILLAC", "XPENG", "POLESTAR", "SUBARU",
+      "JEEP", "MAZDA", "MG", "CHRYSLER", "DODGE", "RAM", "ALFAROMEO",
+      "LANCIA", "LUCID", "BYD", "DACIA", "ALPINE"
+    ]
+  }
+}
