@@ -196,6 +196,10 @@ func main() {
 		port = "8080"
 	}
 
+	http.HandleFunc("/health", func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Content-Type", "application/json")
+		w.Write([]byte(`{"status":"ok"}`))
+	})
 	http.HandleFunc("/feed", handler)
 
 	log.Printf("RSS proxy listening on :%s", port)
